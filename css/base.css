@@ -43,6 +43,12 @@ iframe{
 	 max-height: 315px;
 }
 
+.mobile.portrait iframe{
+	max-width: 100%;
+	height: 50vh;
+	max-height: 50vh;
+}
+
 /* Play and app store images (links) */
 #store{ 
 	width: 100%;
