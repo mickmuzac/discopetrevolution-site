@@ -3,6 +3,9 @@ html, body{
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	background: url('../img/background.png') no-repeat;
+	background-size: 100%;
+	overflow: hidden;
 }
 #main{
 	width: 100%;
@@ -61,7 +64,7 @@ iframe{
 /* Mobile rules */
 
 .mobile.portrait #logo{
-	margin: 3vh 0 13vh 0;
+	margin: 3vh 0 5vh 0;
 }
 
 .mobile.portrait #logo img{
@@ -83,7 +86,7 @@ iframe{
 .mobile.portrait #store img{
 	width: 47%;
 	max-width: 40vw;
-	margin: 0 2vw;
+	margin: 0 4vw;
 }
 
 .mobile.portrait footer{
