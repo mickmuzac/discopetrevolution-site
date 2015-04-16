@@ -3,9 +3,26 @@ html, body{
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	background: url('../img/background.png') no-repeat;
-	background-size: 100%;
 	overflow: hidden;
+}
+#background{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -100;
+	background: #41ddff;
+}
+#background > img{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+#clouds{
+	width: 100%;
+	height: 100%;
+}
+#clouds img{
+	position: absolute;
 }
 #main{
 	width: 100%;
@@ -24,6 +41,9 @@ footer{
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	
+	/* This is temporary! */
+	display: none;
 }
 footer a{
 	color: #eee;
@@ -49,7 +69,7 @@ iframe{
 /* Play and app store images (links) */
 #store{ 
 	width: 100%;
-	margin-top: 10vh;
+	margin-top: 4vh;
 }
 #store img{
 	width: 47%;
