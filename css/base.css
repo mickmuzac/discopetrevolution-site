@@ -54,7 +54,19 @@ iframe{
 	margin: 0 20px;
 }
 
+#logo{
+	margin-bottom: 20px;
+}
+
 /* Mobile rules */
+
+.mobile.portrait #logo{
+	margin-bottom: 5vh;
+}
+
+.mobile.portrait #logo img{
+	width: 85%;
+}
 
 .mobile.portrait iframe{
 	max-width: 100%;
@@ -62,12 +74,18 @@ iframe{
 	max-height: 50vh;
 }
 
-.mobile #store img{
+.mobile.portrait #store{
+	position: absolute;
+	bottom: 4vh;
+	margin: 0;
+}
+
+.mobile.portrait #store img{
 	width: 47%;
 	max-width: 40vw;
 	margin: 0 2vw;
 }
 
-.mobile footer{
-	height: 5vh;
+.mobile.portrait footer{
+	display: none;
 }
