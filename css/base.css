@@ -17,7 +17,7 @@ footer{
 	border-top: 1px solid #eee;
 	background: #333;
 	
-	height: 25px;
+	height: 30px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -43,19 +43,31 @@ iframe{
 	 max-height: 315px;
 }
 
+/* Play and app store images (links) */
+#store{ 
+	width: 100%;
+	margin-top: 10vh;
+}
+#store img{
+	width: 47%;
+	max-width: 172px;
+	margin: 0 20px;
+}
+
+/* Mobile rules */
+
 .mobile.portrait iframe{
 	max-width: 100%;
 	height: 50vh;
 	max-height: 50vh;
 }
 
-/* Play and app store images (links) */
-#store{ 
-	width: 100%;
-	margin-top: 35px;
-}
-#store img{
+.mobile #store img{
 	width: 47%;
-	max-width: 172px;
-	margin: 0 20px;
+	max-width: 40vw;
+	margin: 0 2vw;
+}
+
+.mobile footer{
+	height: 5vh;
 }
